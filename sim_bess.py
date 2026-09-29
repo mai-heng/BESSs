@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Sparse (maximum hands-off) scheduling of a grid-connected BESS under
-time-varying conditions.  Numerical study for ISA Transactions submission.
+time-varying conditions.  
 
 Plant (DT-LTV):  E_{k+1} = a_k E_k - dt*eta_k*u_k   (E[kWh] state, u[kW] ctrl)
 Task: deliver a target arbitrage revenue R over a day.
